@@ -1,9 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import CurrencyConverter from './CurrencyConverter';
 
 function App() {
-  return (
+  return (  
     <div className="App">
+      <h1>Personal Finance Tracker</h1>
+      <CurrencyConverter />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -23,3 +26,14 @@ function App() {
 }
 
 export default App;
+
+import CurrencyConverter from './CurrencyConverter';
+
+function App() {
+    return (
+        <div className="App">
+            <h1>Personal Finance Tracker</h1>
+            <CurrencyConverter />
+        </div>
+    );
+}
